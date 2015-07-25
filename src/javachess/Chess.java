@@ -16,7 +16,9 @@ public class Chess {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        new Gameboard();
+        Gameboard lauta = new Gameboard();
+        char[][] copy = lauta.copyBoard();
+        System.out.print(lauta);
     }
     
 }
